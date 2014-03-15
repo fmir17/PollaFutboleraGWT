@@ -1,0 +1,2 @@
+serviceClass: co.edu.udea.iw.client.server.UsuarioService
+path: D6083A247AE3B2C8CD206FFA7A19A191.gwt.rpc

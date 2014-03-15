@@ -22,18 +22,20 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	
 	<!-- Pagina de inicio -->
 	<welcome-file-list>
-		<welcome-file>PollaFutbolera.html</welcome-file>
+		<welcome-file>cliente.jsp</welcome-file>
 	</welcome-file-list>
 	
 	<!-- Servlets -->
-	<!--<servlet>
-		<servlet-name>ClienteService</servlet-name>
-		<servlet-class>co.edu.udea.iw.server.server.ClienteServiceImpl</servlet-class>
+	
+	<servlet>
+		<servlet-name>UsuarioService</servlet-name>
+		<servlet-class>co.edu.udea.iw.server.server.UsuarioServiceImpl</servlet-class>
 	</servlet>
+	
 	<servlet-mapping>
-		<servlet-name>ClienteService</servlet-name>
-		<url-pattern>/ejemplogwtclase/ClienteService</url-pattern>
-	</servlet-mapping>-->
+		<servlet-name>UsuarioService</servlet-name>
+		<url-pattern>/ejemplogwtclase/UsuarioService</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>loginServlet</servlet-name>

@@ -7,10 +7,9 @@
     <link type="text/css" rel="stylesheet" href="estilos/estilo.css">
 
     <title>Bienvenidos a la Polla Futbolera</title>
-    
-    
+
   </head>
-	
+
   <body>
   
   <div id="tituloPpal"> <h1>Bienvenidos a la Polla Futbolera !!!</h1> </div>
@@ -37,7 +36,7 @@
         in order for this application to display correctly.
       </div>
     </noscript>
-	
+
 	<table border="0" cellspacing="0" cellpadding="0" align="center">
      	<tr>
      		<td align="right">
@@ -50,16 +49,16 @@
     		</td>
 		</tr>
 	</table>
-	
+
 	<%}else{ %>
-	
+
 	<table border="0" cellspacing="0" cellpadding="0" align="center">
 
 		<tr>
 			<td>
 				<form action="login" method="post">
 					<table border="0">
-					
+
 						<tr>
 							<td><span class="label">Nombre de usuario:</span></td>
 							<td><input type="text" name="usuario" value=""></td>
@@ -76,19 +75,19 @@
 						<%
 							if( session.getAttribute("DatosInvalidos") != null ){
 						%>
-						
+
 							<td><%= (String)session.getAttribute("DatosInvalidos") %></td>
-						
-						
+
+
 						<%
 							}
 						%>
-						
-					
+
+
 					</tr>
 				</form></td>
 		</tr>
-		
+
 	</table>
 
 	<%
@@ -99,7 +98,7 @@
 	<tr align="center">
 	<td>¿No tienes una cuenta?. Registrate, es gratis!</td>
 	</tr>
-	
+
 	<tr><td  align="center"><a href ="registro" >Registrarse</a></td></tr>
 	</table>
     

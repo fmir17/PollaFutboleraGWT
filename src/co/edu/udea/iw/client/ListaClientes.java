@@ -1,14 +1,10 @@
 package co.edu.udea.iw.client;
 
-import java.util.List;
 
-
-
-import co.edu.udea.iw.shared.UsuarioGWT;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
+
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
@@ -36,9 +32,9 @@ public class ListaClientes extends Composite{
 	@UiField
 	Button agregar;
 	
+	co.edu.udea.iw.client.Jugador jugador = null;
 
-
-	public ListaClientes() {
+	public ListaClientes(co.edu.udea.iw.client.Jugador jugador) {
 		initWidget(uiBinder.createAndBindUi(this));
 		
 		tabla.setText(0, 0, "C\u00E9dula");
@@ -46,12 +42,9 @@ public class ListaClientes extends Composite{
 		tabla.setText(0, 2, "Correo electr\u00F3nico");
 		tabla.setText(0, 3, "Acciones");
 		
-		tabla.getCellFormatter().setWidth(0, 0, "100px");
-		tabla.getCellFormatter().setWidth(0, 1, "200px");
-		tabla.getCellFormatter().setWidth(0, 2, "200px");
-		tabla.getCellFormatter().setWidth(0, 3, "50px");
-		
 		tabla.getRowFormatter().addStyleName(0, "tablaHeader");
+		
+		this.jugador= jugador;
 		
 	}
 	
@@ -61,10 +54,13 @@ public class ListaClientes extends Composite{
 	}
 	
 
-	
 	@UiHandler("agregar")
 	void onClick(ClickEvent ce){
+
+		Window.alert("clic!");
+		jugador.setVisible(true);
 		
+		this.setVisible(false);
 
 	}
 

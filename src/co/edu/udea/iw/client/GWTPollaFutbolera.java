@@ -13,13 +13,19 @@ import com.google.gwt.user.client.ui.RootPanel;
  */
 public class GWTPollaFutbolera implements EntryPoint {
 	
-		
+	Jugador jugador=null;
+	ListaClientes lista = null;
 	public void onModuleLoad() {
 		
 		Dictionary var = Dictionary.getDictionary("userInSession");
 		UsuarioGWT.setUpFromDictionary(var);
 		
-		
+		jugador = new Jugador();	
+		lista = new ListaClientes(jugador);
+
+		lista.setVisible(false);
+		RootPanel.get("contenido").add(lista);
+		RootPanel.get("contenido").add(jugador);
 		
 	}
 	
