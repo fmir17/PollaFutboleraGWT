@@ -121,7 +121,7 @@ public class Jugador extends Composite {
 							@Override
 							public void onFailure(Throwable caught) {
 								System.out.println(caught.getMessage());
-								
+
 							}
 						});
 

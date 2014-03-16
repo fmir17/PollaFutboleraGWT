@@ -1,0 +1,2 @@
+serviceClass: co.edu.udea.iw.client.server.TorneoService
+path: 95ADE67DC9A958B31F593F19EDD71D63.gwt.rpc

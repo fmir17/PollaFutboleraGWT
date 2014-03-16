@@ -34,13 +34,34 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	
 	<servlet-mapping>
 		<servlet-name>UsuarioService</servlet-name>
-		<url-pattern>/ejemplogwtclase/UsuarioService</url-pattern>
+		<url-pattern>/gwtpollafutbolera/UsuarioService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TorneoService</servlet-name>
+		<servlet-class>co.edu.udea.iw.server.server.TorneoServiceImpl</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>TorneoService</servlet-name>
+		<url-pattern>/gwtpollafutbolera/TorneoService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EquipoService</servlet-name>
+		<servlet-class>co.edu.udea.iw.server.server.EquipoServiceImpl</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>EquipoService</servlet-name>
+		<url-pattern>/gwtpollafutbolera/EquipoService</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>loginServlet</servlet-name>
 		<servlet-class>co.edu.udea.iw.server.server.LoginServlet</servlet-class>
 	</servlet>
+
 
 	<servlet>
 		<servlet-name>logoutServlet</servlet-name>

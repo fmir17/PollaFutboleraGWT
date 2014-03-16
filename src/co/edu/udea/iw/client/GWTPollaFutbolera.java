@@ -15,6 +15,7 @@ public class GWTPollaFutbolera implements EntryPoint {
 	
 	Jugador jugador=null;
 	ListaClientes lista = null;
+	Oferta oferta = null;
 	public void onModuleLoad() {
 		
 		Dictionary var = Dictionary.getDictionary("userInSession");
@@ -22,10 +23,14 @@ public class GWTPollaFutbolera implements EntryPoint {
 		
 		jugador = new Jugador();	
 		lista = new ListaClientes(jugador);
-
+		oferta=new Oferta();
+		
 		lista.setVisible(false);
+		jugador.setVisible(false);
+		
 		RootPanel.get("contenido").add(lista);
 		RootPanel.get("contenido").add(jugador);
+		RootPanel.get("contenido").add(oferta);
 		
 	}
 	
