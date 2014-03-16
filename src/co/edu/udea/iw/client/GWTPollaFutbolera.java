@@ -30,7 +30,7 @@ public class GWTPollaFutbolera implements EntryPoint {
 		
 		RootPanel.get("contenido").add(lista);
 		RootPanel.get("contenido").add(jugador);
-		RootPanel.get("contenido").add(oferta);
+	    RootPanel.get("contenido").add(oferta);
 		
 	}
 	

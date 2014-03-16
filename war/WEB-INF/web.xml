@@ -56,6 +56,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>EquipoService</servlet-name>
 		<url-pattern>/gwtpollafutbolera/EquipoService</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PartidoService</servlet-name>
+		<servlet-class>co.edu.udea.iw.server.server.PartidoServiceImpl</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PartidoService</servlet-name>
+		<url-pattern>/gwtpollafutbolera/PartidoService</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>loginServlet</servlet-name>

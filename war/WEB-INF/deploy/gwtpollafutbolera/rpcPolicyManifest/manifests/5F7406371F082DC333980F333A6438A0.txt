@@ -1,0 +1,2 @@
+serviceClass: co.edu.udea.iw.client.server.EquipoService
+path: 326D7D654F57BDF5582EEF88A9765F2C.gwt.rpc
