@@ -224,12 +224,12 @@ public class Oferta extends Composite {
 				
 				
 				// BORRAR
-				/*Window.alert("Vamos a guadar: " + "torneo :" + idtorneo
+				Window.alert("Vamos a guadar: " + "torneo :" + idtorneo
 						+ "local: " + idEqLoc + "vis: " + idEqVis + "fecha :"
 						+ dbFecha.getTextBox().getText() + "hora :"
 						+ lbxHora.getItemText(lbxHora.getSelectedIndex())
 						+ "minuto :"
-						+ lbxMinuto.getItemText(lbxMinuto.getSelectedIndex()));*/
+						+ lbxMinuto.getItemText(lbxMinuto.getSelectedIndex()));
 
 				String horaPartidoString = lbxHora.getItemText(lbxHora
 						.getSelectedIndex())
