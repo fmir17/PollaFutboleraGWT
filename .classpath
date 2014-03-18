@@ -3,30 +3,30 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/hibernate3.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Librerias ING WEB/mysql-connector-java-5.1.22-bin.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/com.springsource.org.aopalliance-1.0.0.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/commons-logging.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/mail.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-aop-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-beans-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-context-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-core-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-expression-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-jdbc-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-orm-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-test-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-tx-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/home/fredymiranda/Descargas/Spring/Spring/spring-web-3.2.0.RC1.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/PollaFutbolera"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-aop-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-beans-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-context-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-core-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-expression-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-jdbc-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-orm-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-test-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-tx-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/Spring/spring-web-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/mysql-connector-java-5.1.22-bin (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maicol/workspaceJUNO/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

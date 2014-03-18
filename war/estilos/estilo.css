@@ -2,17 +2,88 @@
 
 
 /** Example rules used by the template application (remove for your app) */
+#contenido{
+	text-align: center;
+	margin: 0px 50px 0px 50px;	
+	background-color: lightgray;
+	width: 90%;
+	padding: 5px 5px 5px 5px;	
+    background-image:url('hierba.jpg');
+}
+
+#cuerpo{
+	text-align: center;
+	margin: 0px 50px 0px 50px;	
+	background-color: lightgray;
+	width: 90%;
+	padding: 5px 5px 5px 5px;	
+	background-image:url('hierba.jpg');
+}
+
+
+
+
 h1 {
   font-size: 2em;
   font-weight: bold;
-  color: #777777;
-  margin: 40px 0px 70px;
+  color: white;  
   text-align: center;
+  font-family: "Homer Simpson", cursive; 
 }
 
 .sendButton {
   display: block;
   font-size: 16pt;
+  
+}
+
+.panel{
+	
+	float:center;
+	
+	text-align: center;
+}
+
+.tabla{
+	width: 100%;
+	align: center;
+	border: 1px solid silver;
+	padding: 10px 10px 10px 10px;
+	
+	resize: none;
+}
+
+.boton{
+	display:block;
+    float:center;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family: "Homer Simpson", cursive; font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+
+.campotexto{
+	
+	float:left;
+	
+}
+.label{
+font-family: "Homer Simpson", cursive; 
+  font-size:150%;
+  font-style: normal; 
+  color: white;
+  text-align: center;
+  
+	
 }
 
 /** Most GWT widgets already have a style name defined */

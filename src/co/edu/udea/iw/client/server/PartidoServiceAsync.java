@@ -3,6 +3,11 @@
  */
 package co.edu.udea.iw.client.server;
 
+import java.util.Date;
+import java.util.List;
+
+import co.edu.udea.iw.shared.PartidoGWT;
+
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
 /**
@@ -20,4 +25,8 @@ public interface PartidoServiceAsync {
 			String fechaPartido, String horaPartido, int idTorneo,
 			AsyncCallback<Void> callback);
 
+	void obtenerPartidos(AsyncCallback<List<PartidoGWT>> callback);
+	void obtenerPartido(int idEquipoLocal, int idEquipoVisitante,
+			Date fechaPartido, AsyncCallback<List<PartidoGWT>> callback);
+	
 }

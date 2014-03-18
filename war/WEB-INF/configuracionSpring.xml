@@ -7,8 +7,8 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/bdPolla" />
-		<property name="username" value="root" />
-		<property name="password" value="1234" />
+		<property name="username" value="maicol" />
+		<property name="password" value="root" />
 	</bean>
 
 	<bean id="sessionFactory"
@@ -89,6 +89,9 @@
 	</bean>
 	<bean id="TorneoBL" class="co.edu.udea.iw.bl.impl.TorneoBLImpl">
 		<property name="torneoDao" ref="torneoDao"></property>
+	</bean>
+	<bean id="PartidoBL" class="co.edu.udea.iw.bl.impl.PartidoBLImpl">
+		<property name="partidoDAO" ref="partidoDAO"></property>
 	</bean>
 	<bean id="PronosticoBL" class="co.edu.udea.iw.bl.impl.PronosticoBLImpl">
 		<property name="pronosticoDao" ref="pronosticoDao"></property>

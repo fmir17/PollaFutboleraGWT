@@ -6,13 +6,20 @@
 
     <link type="text/css" rel="stylesheet" href="estilos/estilo.css">
 
-    <title>Bienvenidos a la Polla Futbolera</title>
+    <title>Bienvenidos a LPF</title>
 
   </head>
 
-  <body>
+  <body id="cuerpo" background="estilos/hierba.jpg" style="height: 822px; ">
+  <p align="center">
+		<img src="estilos/logotipo.png" ></p>
+
   
-  <div id="tituloPpal"> <h1>Bienvenidos a la Polla Futbolera !!!</h1> </div>
+  <div id="tituloPpal"> <h1>¡Bienvenido a la Polla Futbolera!</h1> 
+ 
+  
+  
+  </div>
   <% 
   		if(session.getAttribute("UsuarioConectado") != null){
   			UsuarioGWT user = (UsuarioGWT)session.getAttribute("UsuarioConectado");
@@ -60,6 +67,8 @@
 					<table border="0">
 
 						<tr>
+							 <h1>INICIO DE SESION</h1>
+							
 							<td><span class="label">Nombre de usuario:</span></td>
 							<td><input type="text" name="usuario" value=""></td>
 						</tr>
@@ -69,7 +78,11 @@
 						</tr>
 					</table>
 					<tr>
-							<td align="center"><input type=submit value="Login">	
+							<td align="center"><button type="submit" class="boton" value="Login"
+								style="width: 169px;">
+								<img src="estilos/ingresar.png" alt="" /> INGRESAR
+							</button>
+	</td>
 						</tr>
 					<tr align="center">
 						<%
@@ -85,22 +98,33 @@
 
 
 					</tr>
-				</form></td>
+				</form>
 		</tr>
+<tr>
 
-	</table>
-
-	<%
-		}
-	%>
+<form action="registrar" method="post">
 	<table border="0" cellspacing="0" cellpadding="0" align="center">
 	<tr><td><br><br><br></td></tr>
 	<tr align="center">
 	<td>¿No tienes una cuenta?. Registrate, es gratis!</td>
 	</tr>
 
-	<tr><td  align="center"><a href ="registro" >Registrarse</a></td></tr>
+	<tr><td  align="center">
+	
+	
+	<button type="submit" class="boton" value="Registrar">
+								<img src="estilos/registrar.gif" alt="" /> REGISTRARSE
+							</button>
+	
+	</td></tr>
 	</table>
-    
+    </form>
+</tr>
+	</table>
+
+	<%
+		}
+	%>
+	
   </body>
 </html>

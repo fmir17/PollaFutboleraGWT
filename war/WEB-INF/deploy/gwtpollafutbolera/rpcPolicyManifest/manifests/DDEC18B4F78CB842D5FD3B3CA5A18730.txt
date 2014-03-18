@@ -1,0 +1,2 @@
+serviceClass: co.edu.udea.iw.client.server.PartidoService
+path: 2E0C401A0407398514BFBE4D92BF55C0.gwt.rpc

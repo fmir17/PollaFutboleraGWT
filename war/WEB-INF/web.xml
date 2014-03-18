@@ -77,6 +77,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>logoutServlet</servlet-name>
 		<servlet-class>co.edu.udea.iw.server.server.LogoutServlet</servlet-class>
 	</servlet>
+	
+	<servlet>
+		<servlet-name>registrarServlet</servlet-name>
+		<servlet-class>co.edu.udea.iw.server.server.RegistrarServlet</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>loginServlet</servlet-name>
@@ -86,6 +91,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	<servlet-mapping>
 		<servlet-name>logoutServlet</servlet-name>
 		<url-pattern>logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>registrarServlet</servlet-name>
+		<url-pattern>registrar</url-pattern>
 	</servlet-mapping>
 
 </web-app>

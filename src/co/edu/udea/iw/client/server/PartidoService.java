@@ -1,6 +1,9 @@
 package co.edu.udea.iw.client.server;
 
 import java.util.Date;
+import java.util.List;
+
+import co.edu.udea.iw.shared.PartidoGWT;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.RemoteService;
@@ -21,4 +24,9 @@ public interface PartidoService extends RemoteService {
 	
 	public void registrarNuevoPartido(int idEquipoLoc, int idEquipoVis,
 			String fechaPartido, String horaPartido, int idTorneo);
+	
+	public List<PartidoGWT> obtenerPartidos();
+
+	public List<PartidoGWT> obtenerPartido(int idEquipoLocal, int idEquipoVisitante,
+			Date fechaPartido);
 }
